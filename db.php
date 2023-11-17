@@ -1,7 +1,7 @@
 <?php
 $host = "localhost"; // Cambia esto si tu base de datos no está en el mismo servidor
 $usuario = "root";
-$contrasena = "";
+$contrasena = "12345";
 $base_de_datos = "dbprueba";
 
 $conexion = new mysqli($host, $usuario, $contrasena, $base_de_datos);
